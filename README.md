@@ -53,10 +53,10 @@ COPY index.html /usr/share/nginx/html/
 COPY photo.jpg /usr/share/nginx/html/
 ```
 Note: An alternative project structure is to place website  files in a dedicated website/ directory and copy them using:
+```
 FROM nginx:latest
 COPY website/ /usr/share/nginx/html/
-
-
+```
 ## Docker Image
 
 The Docker image is available on Docker Hub:
