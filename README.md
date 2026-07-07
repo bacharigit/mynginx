@@ -66,4 +66,4 @@ https://hub.docker.com/bacharidocker/mynginx
 
 ## Author
 
-Hossein Bachi
+Hossein Bachari
