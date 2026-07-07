@@ -1,5 +1,5 @@
 # Custom Nginx Docker Image
-
+  
 A simple Docker project that creates a custom Nginx image based on the official Nginx Docker image. The container serves a custom static web page.
 
 ## Features
