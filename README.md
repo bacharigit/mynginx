@@ -84,7 +84,7 @@ Through this project, I practiced:
 * Serving a static website with Nginx.
 
 
-```
+
 ## Docker Image
 The Docker image is available on Docker Hub:
 https://hub.docker.com/r/bacharidocker/mynginx
