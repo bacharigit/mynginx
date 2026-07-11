@@ -86,12 +86,10 @@ Through this project, I practiced:
 
 ```
 ## Docker Image
-
 The Docker image is available on Docker Hub:
 https://hub.docker.com/r/bacharidocker/mynginx
 
 ## Author
-
 Hossein Bachari
 
 
