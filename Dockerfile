@@ -1,2 +1,14 @@
-FROM nginx 
-COPY  .  /usr/share/nginx/html
+FROM debian:stable-slim
+
+RUN apt-get update &&\
+    apt-get install -y nginx &&\
+    apt-get clean &&\
+    rm -rf /var/lib/apt/lists/*
+	 
+COPY  index.html  /var/www/html/
+COPY  image1.png  /var/www/html/
+
+
+EXPOSE 80
+CMD ["nginx","-g","daemon off;"]
+
